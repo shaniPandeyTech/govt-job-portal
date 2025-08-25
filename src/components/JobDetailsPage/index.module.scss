@@ -1,0 +1,50 @@
+@import "@/styles/variables";
+
+.detailsMainWrapp {
+  margin: 80px 0 0;
+  .jobSummaryWrap {
+    padding: 0 60px;
+    table {
+      border: 1px solid #cbcbcb;
+      border-collapse: collapse;
+      tr {
+        border: 1px solid #cbcbcb;
+        border-collapse: collapse;
+        td {
+          border: 1px solid #cbcbcb;
+          border-collapse: collapse;
+          padding: 15px;
+          &:first-child {
+            min-width: 200px;
+          }
+          h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: $primary;
+          }
+
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .jobBodyInfoWrap {
+    table {
+        width: 100%;
+      border: 1px solid #cbcbcb;
+      border-collapse: collapse;
+      tr {
+        border: 1px solid #cbcbcb;
+        border-collapse: collapse;
+        td {
+          border: 1px solid #cbcbcb;
+          border-collapse: collapse;
+          padding: 15px;
+        }
+      }
+    }
+  }
+}
